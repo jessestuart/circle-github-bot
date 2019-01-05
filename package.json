@@ -1,7 +1,7 @@
 {
   "name": "@jesses/circle-github-bot",
   "description": "CircleCI comments on github",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
     "access": "public"
@@ -13,8 +13,14 @@
     "tslint-config-standard": "8.0.1",
     "typescript": "3.2.2"
   },
-  "files": ["dist"],
-  "keywords": ["circle", "github", "ops"],
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "circle",
+    "github",
+    "ops"
+  ],
   "license": "Apache-2.0",
   "main": "dist/index.js",
   "repository": {
